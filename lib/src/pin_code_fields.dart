@@ -879,7 +879,6 @@ class _PinCodeTextFieldState extends State<PinCodeTextField>
                     : null,
                 child: Semantics(
                   label: widget.semanticsLabel,
-                  textfield: true,
                   child: Row(
                     mainAxisAlignment: widget.mainAxisAlignment,
                     children: _generateFields(),
